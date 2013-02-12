@@ -1,7 +1,7 @@
 <div class="posts form">
 <?php echo $this->Form->create('Post'); ?>
 	<fieldset>
-		<legend><?php echo __('Add Post'); ?></legend>
+		<legend><?php echo __('Add Post validating the number of tags'); ?></legend>
 	<?php
 		echo $this->Form->input('name');
 		echo $this->Form->input('Post.Tag',array('label'=>'At least one Tag', 'type'=>'select', 'multiple'=>true));
