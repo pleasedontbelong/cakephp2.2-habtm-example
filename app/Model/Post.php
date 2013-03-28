@@ -52,7 +52,7 @@ class Post extends AppModel {
 /**
  * Transforms the data array to save the HABTM relation
  */
-	public function beforeSave($options){
+	public function beforeSave($options = array()){
 		foreach (array_keys($this->hasAndBelongsToMany) as $model){
 			if(isset($this->data[$this->name][$model])){
 				$this->data[$model][$model] = $this->data[$this->name][$model];
