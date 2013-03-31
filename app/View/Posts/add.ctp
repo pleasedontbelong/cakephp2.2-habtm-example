@@ -4,7 +4,7 @@
 		<legend><?php echo __('Add Post'); ?></legend>
 	<?php
 		echo $this->Form->input('name');
-		echo $this->Form->input('Tag');
+		echo $this->Form->input('Post.Tag',array('label'=>'Tags', 'type'=>'select', 'multiple'=>true));
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>
