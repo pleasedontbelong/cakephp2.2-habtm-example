@@ -15,3 +15,7 @@ Feel free to modify and push your modifications to this code.
 
 - This is a classic cakephp project, so all you need to do is to copy/clone/pull the folder to your webroot folder
 - There is a "database" folder on the root of the project. There you'll find a sql file and a workbench file. I'm using mysql for this example 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/pleasedontbelong/cakephp2.2-habtm-example/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
