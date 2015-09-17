@@ -15,3 +15,5 @@ RUN service mysql start && \
 	mysql -u cake_user -pcake_pwd cake_habtm < /code/database/cake-habtm.sql
 
 EXPOSE 80
+
+ENTRYPOINT ["/code/services.sh"]
