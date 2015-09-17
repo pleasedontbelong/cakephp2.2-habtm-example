@@ -1,5 +1,5 @@
 FROM linode/lamp
-RUN apt-get update && apt-get install -y git
+RUN apt-get update && apt-get install -y php5-mysql && a2enmod rewrite
 
 RUN mkdir /code
 WORKDIR /code
