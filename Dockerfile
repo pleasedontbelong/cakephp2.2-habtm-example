@@ -14,6 +14,8 @@ RUN service mysql start && \
 	mysql -u root -pAdmin2015 --execute="CREATE DATABASE cake_habtm; GRANT ALL ON cake_habtm.* TO 'cake_user' IDENTIFIED BY 'cake_pwd'; FLUSH PRIVILEGES;" && \
 	mysql -u cake_user -pcake_pwd cake_habtm < /code/database/cake-habtm.sql
 
+RUN chown -R www-data:www-data /code/app/tmp/cache
+
 EXPOSE 80
 
 ENTRYPOINT ["/code/services.sh"]
