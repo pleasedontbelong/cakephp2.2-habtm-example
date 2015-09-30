@@ -1,4 +1,8 @@
 <div class="posts form">
+<p>
+	This form is like the first one but here we validate that a post must have
+	at least one tag.
+</p>
 <?php echo $this->Form->create('Post'); ?>
 	<fieldset>
 		<legend><?php echo __('Add Post validating the number of tags'); ?></legend>

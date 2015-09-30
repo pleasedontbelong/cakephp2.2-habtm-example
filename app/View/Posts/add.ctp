@@ -1,4 +1,9 @@
 <div class="posts form">
+<p>
+	This form allows you to add a new Post and select multiple Tags for this post.
+	Here I'm using the basic "multiple select" input, so  you'll need to Ctrl + Click
+	to select multiple Tags.
+</p>
 <?php echo $this->Form->create('Post'); ?>
 	<fieldset>
 		<legend><?php echo __('Add Post'); ?></legend>

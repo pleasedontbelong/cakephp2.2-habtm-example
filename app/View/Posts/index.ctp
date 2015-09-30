@@ -1,4 +1,9 @@
 <div class="posts index">
+	<p>This is an example site on how to save and validate a HABTM relationship
+	using CakePHP. You can read <a href="www.pabloleanomartinet.com/cakephp-2-x-saving-validating-habtm-relation-example/">an article about this</a> on my blog. You can also
+	read the source code on the <a href="https://github.com/pleasedontbelong/cakephp2.2-habtm-example">github repository</a>, or you could also pull the
+	<a href="https://hub.docker.com/r/pleasedontbelong/cakephp_habtm_save/">docker container</a> and run it yourself</p>
+	<p>Start by adding a new post with or without validation.</p>
 	<h2><?php echo __('Posts'); ?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
